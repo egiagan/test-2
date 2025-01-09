@@ -2,12 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/9.23.0/firebas
 import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/9.23.0/firebase-auth.js";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyB6b3gNd2_NYTiYpORhiorn-9Rfxs3P-qw",
-  authDomain: "task-sync-v2.firebaseapp.com",
-  projectId: "task-sync-v2",
-  storageBucket: "task-sync-v2.appspot.com",
-  messagingSenderId: "750605991425",
-  appId: "1:750605991425:web:6fdcb576e673fbf3fd4a00"
+  apiKey: "AIzaSyDAlth1sxiP-S3r3fVDXhwadVVnEvpdO6s",
+  authDomain: "login-egi-agan.firebaseapp.com",
+  databaseURL: "https://login-egi-agan-default-rtdb.firebaseio.com",
+  projectId: "login-egi-agan",
+  storageBucket: "login-egi-agan.firebasestorage.app",
+  messagingSenderId: "395059466114",
+  appId: "1:395059466114:web:5c6b0621e9739df6b5c99b"
 };
 
 // Initialize Firebase
